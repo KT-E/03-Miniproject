@@ -191,7 +191,3 @@ python -m src.main batch --csv data/reviews.csv --concurrency 6
 # 대시보드 실행
 streamlit run src/dashboard.py
 ```
-
-## 정리 과정에서의 참고 사항
-
-원본 리포지토리에는 부트캠프에서 제공한 "Step1" 노트북(`Step1. 상품리뷰분석 Agent 1.ipynb`)과 그 설계 문서 양식이 있었으나, 실제로 열어 확인한 결과 모든 코드 셀이 비어 있는(구현되지 않은) 빈 템플릿이었습니다. 이 프로젝트의 팀은 Step1 미션 결과를 별도 파일이 아니라 `agent_v1.ipynb`(구 Step2 노트북) 안의 "Step1 결과물" 섹션에 직접 작성해 두었으므로, 빈 템플릿 파일과 빈 설계 문서는 삭제하고 실제로 작업 내용이 담긴 두 노트북(`agent_v1.ipynb`, `agent_v2_final.ipynb`)과 두 세트의 설계 문서(`_v1`, `_final`)만 남겼습니다.
